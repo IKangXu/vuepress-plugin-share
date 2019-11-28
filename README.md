@@ -30,7 +30,21 @@
 
 ```js
 [require('@vuepress-ikangxu/vuepress-plugin-share'), {
-  supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu']
+  supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']
+}]
+```
+
+or
+
+下载插件
+
+```shell
+npm i @ikangxu/vuepress-plugin-share -D
+```
+
+```js
+['@ikangxu/vuepress-plugin-share', {
+  supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']
 }]
 ```
 

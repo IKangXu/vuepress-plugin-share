@@ -8,7 +8,7 @@ module.exports = (options, ctx) => ({
       define_supports: supports || ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']
     }
   },
-  name: '@vuepress-ikangxu/vuepress-plugin-share',
+  name: '@ikangxu/vuepress-plugin-share',
   enhanceAppFiles: resolve(__dirname, './bin/enhanceAppFile.js'),
   globalUIComponents: 'Share'
 })

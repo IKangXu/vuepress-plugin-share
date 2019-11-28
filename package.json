@@ -1,19 +1,26 @@
 {
-  "name": "@vuepress-ikangxu/vuepress-plugin-share",
-  "version": "0.0.1",
-  "description": "This is a UI components for Vue 2.x ",
-  "author": "IKangXu",
+  "name": "@ikangxu/vuepress-plugin-share",
+  "version": "0.0.2",
+  "description": "share plugin for vuepress-theme-reco or other vuepress theme",
+  "author": "IKangXu <ikangxu@qq.com>",
   "main": "index.js",
   "private": false,
   "scripts": {
-    "tag": "node build/tag.js",
-    "publish": "node build/publish.js",
-    "dev": "node build/dev-server.js",
-    "start": "npm run dev",
-    "build": "node build/build.js",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
-    "test": "npm run unit",
-    "lint": "eslint --ext .js,.vue src test/unit/specs"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-ext": "eslint --ext .js,.vue ./",
+    "eslint-fix": "eslint --fix --ext .js,.vue ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IKangXu/vuepress-plugin-share.git"
+  },
+  "keywords": [
+    "vuepress-theme-reco",
+    "vuepress",
+    "share"
+  ],
+  "bugs": {
+    "url": "https://github.com/IKangXu/vuepress-plugin-share/issues"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -21,6 +28,6 @@
     "eslint-plugin-vue": "^5.2.3"
   },
   "dependencies": {},
-  "license": "ISC",
-  "homepage": ""
+  "license": "MIT",
+  "homepage": "https://github.com/IKangXu?tab=repositories"
 }
